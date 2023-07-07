@@ -546,19 +546,19 @@
                 <!--Form-->
                 <div class="col-lg-6 pl-lg-6 mt-lg-0 mt-6 contact-form" id="message-me">
                     <h2 class="contact__title">If you have any business with me,Reach out to me through here <i class="uil uil-corner-right-down"></i></h2>
-                    <form action="#" method="post" class="cf">
+                    <form onsubmit="sendEmail();reset();return false;" class="cf">
                         <div class="row">
                             <div class="col-lg-6">
-                                <input type="text" name="message-name" class="form-control mb-30 form__color cf" placeholder="Your Name">
+                                <input type="text" id="name" name="message-name" class="form-control mb-30 form__color cf" placeholder="Your Name">
                             </div>
                             <div class="col-lg-6">
-                                <input type="text" name="message-email" class="form-control mb-30 form__color cf" placeholder="Your Email">
+                                <input type="text" id="email" name="message-email" class="form-control mb-30 form__color cf" placeholder="Your Email">
                             </div>
                             <div class="col-12">
-                                <input type="text" name="message-subject" class="form-control mb-30 form__color cf" placeholder="Subject">
+                                <input type="text" id="subject" name="message-subject" class="form-control mb-30 form__color cf" placeholder="Subject">
                             </div>
                             <div class="col-12">
-                                <textarea name="message" class="form-control mb-30 form__color cf" cols="30" rows="10" placeholder="Your message"></textarea>
+                                <textarea name="message" id="message" class="form-control mb-30 form__color cf" cols="30" rows="10" placeholder="Your message"></textarea>
                             </div>
                             <div class="col-12">
                                 <button type="submit" class="button button--flex send-message form_button">
@@ -641,17 +641,10 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+    <!--SMTP JS EMAIL SENDER-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
     <!--my script -->
     <script src="js/script.js"></script>
   </body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    
-</body>
 </html>

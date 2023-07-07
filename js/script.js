@@ -131,3 +131,19 @@ function scrollActive() {
 
 }
 window.addEventListener('scroll',scrollActive);
+
+//===================EMAIL SEND==========================
+
+        function sendEmail() {
+            Email.send({
+            SecureToken : "37ce2593-bae5-4ad7-93ee-d42d3875864e",
+            To : 'azizelbelaychy@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "Subject :" + document.getElementById("subject").value,
+            Body : "Name : " + document.getElementById("name").value 
+                + "<br> Message : " + document.getElementById("message").value
+            }).then(
+            message => alert("message has been sent succesfully!")
+            );
+        }
+
