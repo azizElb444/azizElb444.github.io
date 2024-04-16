@@ -1211,46 +1211,26 @@ form textarea {
 /*=============MEDIA SCREENS ====================*/
 
 /*======== SMALL SCREENs================*/ 
-<<<<<<< HEAD
-@media screen and (max-width: 350px) {
-=======
 @media screen and (min-width: 350px) {
->>>>>>> 98d2dbe7cd8da3383f7ce43e2a9fe5554321619b
   .container {
     margin-left:var(--mb-0-25);
     margin-right:var(--mb-1);
   }
-<<<<<<< HEAD
-  .nav__menu {
-    padding: 2rem 0.25rem 4rem;
-  }
-  .nav__list {
-    column-gap :0;
-  }
-  .home__content {
-    grid-template-columns: 0.25fr 3fr;
-=======
   
   .home__content {
     grid-template-columns: .25fr 3fr;
   }
   .home__data {
     transform:translateX(-0.5rem);
->>>>>>> 98d2dbe7cd8da3383f7ce43e2a9fe5554321619b
   }
   .qualification__data {
     gap:0.5rem;
   }
-<<<<<<< HEAD
-  .contact_mail {
-    margin-left: 0px;
-=======
   .qualification__start-icon {
     transform: translateY(1.5rem);
   }
   .contact_mail {
     margin-left: var(--mb-1-5);
->>>>>>> 98d2dbe7cd8da3383f7ce43e2a9fe5554321619b
   }
 
   ::-webkit-scrollbar {
@@ -1396,12 +1376,9 @@ form textarea {
   #home {
     height: 85vh;
   }
-<<<<<<< HEAD
-=======
   .home__data {
     transform: translateX(-5rem);
   }
->>>>>>> 98d2dbe7cd8da3383f7ce43e2a9fe5554321619b
   .home__social {
     transform: translateX(-4rem);
   }
