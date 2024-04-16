@@ -131,3 +131,11 @@ function scrollActive() {
 
 }
 window.addEventListener('scroll',scrollActive);
+<<<<<<< HEAD
+=======
+
+//===================EMAIL SEND==========================
+
+        
+
+>>>>>>> 98d2dbe7cd8da3383f7ce43e2a9fe5554321619b
